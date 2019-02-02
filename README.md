@@ -1,1 +1,1 @@
-This repository contains the user interface I designed for the batch sync application.
+This repository contains the user interface I designed for Lord abbett in-house project batch sync application.

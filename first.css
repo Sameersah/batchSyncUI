@@ -1,0 +1,133 @@
+#header{
+
+	clear: both;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+
+    
+}
+body{
+	background-color: #eeeeee;
+	font-family: Helvatica, Arial,sans-serif;
+	/*background-image: url('backgroundImage.jpg');*/
+}
+
+a{
+	text-decoration: none;
+}
+
+
+#container{
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	height: 100%;
+}
+
+#content{
+	padding: 10px;
+	height: 80%;
+}
+
+#nav{
+	width: 30%;
+	float: left;
+	height: 100%;
+	padding: 10px;
+	text-align: left;
+}
+
+#nav .selected{
+    font-weight: bold;
+}
+
+#nav ul{
+	list-style-type: none;
+	font-family: Arial,Helvetica,sans-serif;
+	
+}
+
+#nav ul li {
+	padding: 10px;
+}
+
+#main{
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+}
+
+#progress{
+	width: 30%;
+	height: 100%;
+    float: left;
+    padding: 10px;
+}
+
+#progress .loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#navHeading,#mainHeading, #progressHeading{
+	font-family:DinProLight;
+	font-size: 30px;
+	font-color: black;
+}
+
+#topValue, #asOfDate, #accoutNos{
+	border-top: hidden;
+	border-right: hidden;
+	border-left: hidden;
+	border-color: black;
+	outline: none;
+	width: 30%;
+	
+	font-family: Arial,Helvetica,sans-serif;
+
+}
+
+#topValueLabel, #asOfDateLabel, #accoutNosLabel{
+	
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 13px;
+}
+
+#submit{
+	background-color: black;
+	color: white;
+	 border: none;
+	 padding: 16px 32px;
+	 cursor: pointer;
+	 border-radius: 12px;
+	 outline: none;
+}
+
+#footer{
+	clear: both;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	text-align: center;
+
+	
+}
+

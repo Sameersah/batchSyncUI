@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Batch Sync</title>
+<link rel="stylesheet" type="text/css" href="first.css">
+<link rel="icon"  href="logo.png">
+</head>
+
+<body>
+<div id="container">
+<div id="header">
+	<img src="">
+	Batch Sync Application
+</div>
+<div id="content">
+	<div id="nav">
+		<h2 id="navHeading" >Navigation</h2>
+		<ul>
+			<li><a class="" href="accountsrefresh.html"> Refresh Accounts Node</a></li>
+			<li><a href="strategiesrefresh.html">Refresh Strategy Node</a></li>
+			<li><a href="biographiesrefresh.html">Refresh Biographies Node</a></li>
+			<li><a href="downloadexcel.html">Download CSV Excel Sheet</a></li>
+		</ul>
+	</div>
+	<div id="main">
+		<h2 id="mainHeading">Refresh Accounts Node</h2>
+
+		<div id="form">
+			<label id="topValueLabel" >Top Value* : </label><br><br>
+
+			<input id="topValue" type="text" name="topValue" placeholder="1000">
+			<br><br><br>
+			<label id="asOfDateLabel">As Of Date* : </label><br><br>
+			<input id="asOfDate" type="date" name="asOfDate" placeholder="2019-01-28">
+			<br><br><br>
+			<label id="accoutNosLabel">Account No(s) (optional) : </label><br><br>
+			<input id="accoutNos" type="text" name="accoutNos" placeholder="2,3,5">
+			<br><br><br>
+			<input id="submit" type="submit" name="submit">
+	    </div>
+	</div>
+	<div id="progress">
+		<h2 id="progressHeading">Progress</h2>
+		<div class="loader"></div>
+	</div>
+</div>
+<div id="footer">
+	CopyRight &copy; 2019 Lord Abbett
+</div>
+</div>
+</body>
+</html>
